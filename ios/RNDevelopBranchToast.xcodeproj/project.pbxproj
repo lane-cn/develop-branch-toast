@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		899A46B72879C3830092DA9C /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 899A46A82879C35B0092DA9C /* libReact.a */; };
 		899A46C32879C45E0092DA9C /* IOSNativeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A46B92879C45E0092DA9C /* IOSNativeToast.m */; };
+		899A46CF2879D79D0092DA9C /* RCTCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A46CE2879D79D0092DA9C /* RCTCalendarModule.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNDevelopBranchToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNDevelopBranchToast.m */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,8 @@
 		899A469C2879C35B0092DA9C /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		899A46B92879C45E0092DA9C /* IOSNativeToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSNativeToast.m; sourceTree = "<group>"; };
 		899A46C22879C45E0092DA9C /* IOSNativeToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSNativeToast.h; sourceTree = "<group>"; };
+		899A46C52879D79D0092DA9C /* RCTCalendarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCalendarModule.h; sourceTree = "<group>"; };
+		899A46CE2879D79D0092DA9C /* RCTCalendarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCalendarModule.m; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNDevelopBranchToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDevelopBranchToast.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNDevelopBranchToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDevelopBranchToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +118,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				899A46C52879D79D0092DA9C /* RCTCalendarModule.h */,
+				899A46CE2879D79D0092DA9C /* RCTCalendarModule.m */,
 				899A46C22879C45E0092DA9C /* IOSNativeToast.h */,
 				899A46B92879C45E0092DA9C /* IOSNativeToast.m */,
 				B3E7B5881CC2AC0600A0062D /* RNDevelopBranchToast.h */,
@@ -269,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899A46CF2879D79D0092DA9C /* RCTCalendarModule.m in Sources */,
 				899A46C32879C45E0092DA9C /* IOSNativeToast.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNDevelopBranchToast.m in Sources */,
 			);

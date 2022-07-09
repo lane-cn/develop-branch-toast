@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNDevelopBranchToast } = NativeModules;
+const { CalendarModule } = NativeModules;
 
-export default RNDevelopBranchToast;
+export default CalendarModule;
