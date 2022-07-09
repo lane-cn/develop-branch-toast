@@ -1,17 +1,25 @@
 
 {
   "name": "react-native-develop-branch-toast",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "React Native Toast Component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lane-cn/develop-branch-toast.git"
+  },
   "keywords": [
-    "react-native"
+    "toast"
   ],
-  "author": "",
-  "license": "",
+  "author": "Lane Lu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lane-cn/develop-branch-toast/issues"
+  },
+  "homepage": "https://github.com/lane-cn/develop-branch-toast",
   "devDependencies": {
     "react-native": "^0.41.2"
   },
@@ -19,3 +27,4 @@
     "react-native": "^0.41.2"
   }
 }
+  
